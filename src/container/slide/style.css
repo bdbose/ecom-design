@@ -1,0 +1,28 @@
+/** @format */
+
+.slidebar {
+	overflow: auto;
+	margin: 20px 0;
+	padding: 5px;
+}
+.slide-wrapper {
+	display: flex;
+}
+.items {
+}
+.items img {
+	margin: 0 10px;
+	height: 80px;
+	width: 80px;
+	box-shadow: 0 5px 7px 1px lightgrey;
+	border-radius: 50%;
+	object-fit: fill;
+}
+.slide-title {
+	font-size: 15px;
+	margin: 10px 0;
+	font-weight: 600;
+	color: gray;
+	text-align: center;
+	font-family: sans-serif;
+}

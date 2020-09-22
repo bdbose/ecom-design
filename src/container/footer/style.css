@@ -1,0 +1,29 @@
+/** @format */
+
+.footer {
+	background-color: #8a2be2;
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	width: 100vw;
+}
+.footer-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-icons {
+	display: flex;
+	align-items: center;
+}
+.footer-icons img {
+	width: 30px;
+	height: 30px;
+}
+.footer-icons:nth-child(1) {
+	background-color: white;
+	border-radius: 50%;
+	position: relative;
+	top: -10px;
+	padding: 20px;
+}

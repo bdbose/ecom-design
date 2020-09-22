@@ -1,0 +1,15 @@
+/** @format */
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+.nav-wrapper img {
+	margin-right: 10px;
+}
+.nav-wrapper {
+	display: flex;
+	font-size: 25px;
+	margin-right: 20px;
+}

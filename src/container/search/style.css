@@ -1,0 +1,39 @@
+/** @format */
+
+.search {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px 0;
+}
+
+.search-wrapper {
+	border-radius: 10px;
+	box-shadow: 0 5px 7px 1px lightgrey;
+	background-color: white;
+	display: flex;
+	width: 68vw;
+	padding: 10px;
+}
+.search-wrapper img {
+	width: 25px;
+	margin-right: 10px;
+}
+.search-wrapper input {
+	font-size: 18px;
+	border: 0;
+	width: 80%;
+	outline: none;
+}
+
+.filter img {
+	width: 25px;
+	transform: rotate(90deg);
+}
+
+.filter {
+	padding: 10px;
+	display: flex;
+	border-radius: 5px;
+	box-shadow: 0 5px 8px 1px lightgrey;
+	background-color: blueviolet;
+}
